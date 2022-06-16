@@ -19,7 +19,7 @@ namespace TodoApi.Controllers
         private Dictionary<string, byte[]> photos;
         private Dictionary<string, byte[]> unity3d;
         private byte[] allPhotosInZip;
-        private string path = ".\\Models"; // enter the path to the photo folder here
+        private string path = "./Models"; // enter the path to the photo folder here
 
         public TodoItemsController()
         {
